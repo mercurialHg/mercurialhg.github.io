@@ -1,0 +1,495 @@
+/*---------------------resets-----------------*/
+
+div,
+main,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+/*---------reset-jumbotron-border-radius---------*/
+
+.jumbotron {
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
+
+/*table resets*/
+
+th,
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*------------------END-resets-----------------*/
+
+body {
+    font-family: 'Cabin', sans-serif;
+    /*    background-color: #009688;*/
+    /*=======================================================
+ This pattern is downloaded from www.subtlepatterns.com
+ If you need more, that's where to get'em.
+ =======================================================*/
+    background-image: url(../img/background/wild_oliva.png);
+    background-attachment: fixed;
+}
+
+.wrapper {
+    padding: 50px 0 0 0;
+}
+
+#wrapper {}
+
+
+/* lg screens */
+
+
+/*
+.header {
+    position: relative;
+    min-height: 550px;
+    width: inherit;
+
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
+}
+.header:before {
+    content: "";
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 100%;
+
+    width: auto;
+    background: #455A64;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.header .face-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+.header .face-container .widget {
+    height: 50px;
+    width: 50px;
+    background: #ccc;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+.header .face-container .widget:nth-child(1) {
+    top: 0%;
+    left: 25%;
+
+}
+.header .face-container .widget:nth-child(2) {
+    top: 0%;
+    right: 25%;
+
+}
+.header .face-container .widget:nth-child(3) {
+    bottom: 0%;
+    right: 25%;
+
+}
+.header .face-container .widget:nth-child(4) {
+    bottom: 0%;
+    left: 25%;
+
+}
+.header .face-container .face {
+    margin: 75px auto 30px;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background: url("../img/face.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 13px solid #009688;
+    box-shadow: inset 0px -1px 9px 0px rgba(0, 0, 0, 0.75), 0px 0px 8px -1px rgba(0, 0, 0, 0.85);
+}
+.header .name {
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+*/
+
+nav.navbar {
+    border-width: 0;
+}
+
+nav.navbar a {
+    transition: all .3s ease-in-out;
+}
+
+nav .container-fluid .navbar-collapse {
+    float: right;
+}
+
+a.navbar-brand {
+    color: #fff !important;
+    background: #00796b;
+    transition: all .3s ease-in-out;
+}
+
+a.navbar-brand:hover {
+    background: #059685 !important;
+}
+
+.navbar-toggle {
+    padding: 0 5px;
+    background-color: #00796b !important;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.main {}
+
+.main > section {
+    position: relative;
+    /*    padding: 0 0 20px;*/
+    /*review*/
+    margin-bottom: 70px;
+    /*    border: 3px solid #455A64;*/
+    background: #eee;
+    /*  box-shadow  */
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
+    background: #ecf9f7;
+}
+
+.objective {
+    background: #eee;
+    padding-bottom: 20px;
+}
+
+.objective .objective-jumbotron {
+    background: inherit !important;
+    padding-top: 0;
+}
+
+.objective .objective-jumbotron .objective-title {
+    padding: 12px 0 30px 0;
+}
+
+[class*=work-exp] {
+    padding: 30px 60px;
+}
+
+[class*=work-exp] .info {
+    background: #00796b;
+    color: #FFFFFF;
+    display: inline-block;
+    display: inline-block;
+    background: #009688;
+    border-radius: 5px;
+    padding: 2px 0;
+    text-align: center;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 120px;
+}
+
+[class*=work-exp] .info > * {
+    padding: 10px 0;
+}
+
+[class*=work-exp] .info h3 {
+    font-size: 2.2em;
+}
+
+[class*=work-exp] .description {
+    padding: 0 50px;
+}
+
+[class*=work-exp] .description h4 {
+    box-sizing: content-box;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #607D8B;
+    /*    margin-right: 30px;*/
+    /*    text-align: center;*/
+    padding: 0 0 10px 0;
+    text-indent: 5px;
+}
+
+[class*=work-exp] .description h4:first-child {
+    padding-top: 20px;
+}
+
+[class*=work-exp] .description ul li {
+    padding: 6px 0;
+}
+
+.education {
+    padding: 0 0 30px 0;
+    !important;
+}
+
+.education .institution {
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.education .institution:first-child {
+    padding-bottom: 36px;
+}
+
+.education .institution .time-interval {
+    text-align: right;
+    color: #FFFFFF;
+    padding-right: 50px;
+}
+
+.education .institution .time-interval span {
+    display: inline-block;
+    background: #009688;
+    border-radius: 5px;
+    min-width: 170px;
+    padding: 2px 0;
+    text-align: center;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid;
+}
+
+.education .institution .field {
+    padding-left: 30px;
+}
+
+.languages div.table-responsive {
+    padding: 0 20px;
+}
+
+.languages table thead tr:first-child {
+    background: #009688;
+    color: #fff;
+}
+
+.languages table tbody {
+    background: #f9f9f9;
+}
+
+.contact .form-container {
+    padding: 20px 0;
+}
+
+.contact form {
+    margin-bottom: 20px;
+}
+
+.contact input[type=submit] {
+    background: #009688;
+    color: #fff;
+}
+
+.contact .social {
+    padding: 20px;
+}
+
+.contact .social a {
+    display: inline-block;
+    margin: 0 12px;
+    height: 50px;
+}
+
+.contact .social a [class*=envelope] {
+    color: #ea4335;
+}
+
+.contact .social a [class*=twitter] {
+    color: #1da1f2;
+}
+
+.contact .social a [class*=codepen] {
+    color: #333;
+}
+
+.contact .social a i:before {
+line-height: 50px;
+}
+
+
+.contact .survey {
+    margin: 0 0 30px 0;
+}
+
+.contact .survey #first--modal {
+    background: #009688;
+    color: #fff;
+    padding: 0 !important;
+}
+
+.contact .survey button span {
+    display: inline-block;
+    padding: 6px 12px !important;
+    font-size: 1.4em;
+}
+
+.contact .survey button:hover {
+    background: #08796f;
+    color: #fff;
+}
+
+.portfolio .frank-herbert a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .frank-herbert span {
+    display: inline-block;
+    background: #009688;
+}
+
+.portfolio .project-list {}
+
+.portfolio .fcc h4 {}
+
+.portfolio .fcc a {
+    text-decoration: none;
+}
+
+.portfolio .project-list {
+    margin: 30px 0;
+}
+
+.portfolio .project-list a {
+/*    display: block;*/
+    position: relative;
+    height: 150px;
+    width: 180px;
+    display: inline-block;
+    box-shadow: 0px 0px 2px 1px;
+
+/*
+    background: #009688;
+    color: #fff;
+    border-radius: 10px;
+*/
+}
+
+.portfolio .project-list a:hover {
+    box-shadow: 0px 0px 3px 0px  rgba(0,0,0, 0.4)
+}
+
+.portfolio .project-list a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+
+.credits .row {
+    margin-bottom: 15px;
+}
+
+
+/*------------custom-classes----------------*/
+
+.offset-top {
+    /*  only first h2 visible, others relative to html  */
+    /*    min-width: 200px;*/
+    height: 55px;
+    padding: 0 10px;
+    line-height: 52px;
+    background: #c34a24;
+    margin-bottom: 25px;
+    /*
+    position: relative;
+    left: 0;
+    top: 0;
+*/
+    /*    transform: translate(-50%, -50%);*/
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    /*    border-radius: 3px;*/
+    text-align: center;
+    /*  box-shadow  */
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 991px) {
+    body {
+        background-attachment: scroll;
+    }
+    .offset-top {}
+    .main > section {
+        margin-bottom: 40px;
+    }
+    [class*=work-exp] {
+        padding: 5px;
+    }
+    .row {
+        margin: 0;
+        /*prevent page overflow on small devices if no padding on parent*/
+    }
+    .objective .objective-jumbotron h3 {
+        text-align: center;
+    }
+    .objective .objective-jumbotron p {
+        font-size: 1.2em;
+    }
+    [class*=work-exp] > * {
+        text-align: center;
+    }
+    [class*=work-exp] .description {
+        padding: 0 10px;
+    }
+    [class*=work-exp] .description ul li {
+        text-align: left;
+    }
+    .education > * {
+        text-align: center;
+    }
+    .education .institution .time-interval {
+        text-align: center;
+        padding: 0;
+    }
+    .education .institution .field {
+        padding: 0;
+    }
+    .education .institution .time-interval span {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    nav .container-fluid .navbar-collapse {
+        float: none !important;
+        text-align: center;
+    }
+    .contact .social a {
+        margin: 0;
+    }
+    div.table-responsive {
+        padding: 0 !important;
+        border: none;
+    }
+}
+
