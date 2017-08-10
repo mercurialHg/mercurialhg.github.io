@@ -41,7 +41,11 @@ td {
 
 body {
     font-family: 'Cabin', sans-serif;
+<<<<<<< HEAD
+    background-color: #009688;
+=======
         background-color: #009688;
+>>>>>>> 61ab8fcad78339d19fc39f1e2acb37d7e039ec82
     /*=======================================================
         This pattern is downloaded from www.subtlepatterns.com
         If you need more, that's where to get'em.
@@ -54,6 +58,10 @@ body {
     padding: 50px 0 0 0;
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 61ab8fcad78339d19fc39f1e2acb37d7e039ec82
 nav.navbar {
     border-width: 0;
 }
