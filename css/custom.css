@@ -41,11 +41,8 @@ td {
 
 body {
     font-family: 'Cabin', sans-serif;
-<<<<<<< HEAD
     background-color: #009688;
-=======
-        background-color: #009688;
->>>>>>> 61ab8fcad78339d19fc39f1e2acb37d7e039ec82
+    background-color: #009688;
     /*=======================================================
         This pattern is downloaded from www.subtlepatterns.com
         If you need more, that's where to get'em.
@@ -58,10 +55,6 @@ body {
     padding: 50px 0 0 0;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 61ab8fcad78339d19fc39f1e2acb37d7e039ec82
 nav.navbar {
     border-width: 0;
 }
@@ -154,8 +147,6 @@ a.navbar-brand:hover {
     box-sizing: content-box;
     margin-bottom: 15px;
     border-bottom: 1px solid #607D8B;
-    /*    margin-right: 30px;*/
-    /*    text-align: center;*/
     padding: 0 0 10px 0;
     text-indent: 5px;
 }
@@ -286,10 +277,6 @@ line-height: 50px;
     display: inline-block;
     background: #009688;
 }
-
-.portfolio .project-list {}
-
-.portfolio .fcc h4 {}
 
 .portfolio .fcc a {
     text-decoration: none;
